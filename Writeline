@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Myprogram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string Hi = "Hey, how are you? ";
+            int age = 33;
+            int amount = 50;
+            int amount2 = 48;
+            char grade = 'A';
+            bool ismale = true;
+
+            
+            Console.WriteLine(Hi + "I just saw your Assignment\n" + "And your correct answers number is " + amount2 + " Out of " + amount);
+            Console.WriteLine("which means that ur grade is "+ grade);
+            amount2 = 44;
+            string new_grade = "B+";
+            Console.Write("Okay, what's your name?: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Oh no sorry, " + name + " It's actually " + amount2 + " Out of " + amount);
+            Console.WriteLine("It means, That your grade is " + new_grade);
+            Console.WriteLine("okay " + name + ", all the best!");
+            Console.ReadLine();
+        }
+    }
+}
